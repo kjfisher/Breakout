@@ -60,8 +60,8 @@
 		2ECA67F3192E75DC0017F685 /* PaddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaddleView.m; path = ../PaddleView.m; sourceTree = "<group>"; };
 		2ECA67F7192E7AFF0017F685 /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
 		2ECA67F8192E7AFF0017F685 /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
-		DC6384D3192F8FAD0098F01E /* BlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockView.h; sourceTree = "<group>"; };
-		DC6384D4192F8FAD0098F01E /* BlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockView.m; sourceTree = "<group>"; };
+		DC6384D3192F8FAD0098F01E /* BlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlockView.h; path = ../BlockView.h; sourceTree = "<group>"; };
+		DC6384D4192F8FAD0098F01E /* BlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlockView.m; path = ../BlockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +91,6 @@
 		2ECA67B1192E75B50017F685 = {
 			isa = PBXGroup;
 			children = (
-				DC6384D3192F8FAD0098F01E /* BlockView.h */,
-				DC6384D4192F8FAD0098F01E /* BlockView.m */,
 				2ECA67C3192E75B50017F685 /* Breakout */,
 				2ECA67E2192E75B50017F685 /* BreakoutTests */,
 				2ECA67BC192E75B50017F685 /* Frameworks */,
@@ -123,6 +121,8 @@
 		2ECA67C3192E75B50017F685 /* Breakout */ = {
 			isa = PBXGroup;
 			children = (
+				DC6384D3192F8FAD0098F01E /* BlockView.h */,
+				DC6384D4192F8FAD0098F01E /* BlockView.m */,
 				2ECA67CC192E75B50017F685 /* AppDelegate.h */,
 				2ECA67CD192E75B50017F685 /* AppDelegate.m */,
 				2ECA67CF192E75B50017F685 /* Main.storyboard */,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="7gi-mz-q6V">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="7gi-mz-q6V">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -19,72 +19,12 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H4c-dC-CRx" customClass="BallView">
                                 <rect key="frame" x="140" y="345" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.95784852389999997" green="1" blue="0.41481680859999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="8.3689458160000001e-05" green="0.00017082745370000001" blue="0.00027598505430000001" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pyn-Xg-OKC" customClass="PaddleView">
                                 <rect key="frame" x="120" y="474" width="80" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1148303441" green="0.16622443889999999" blue="0.53910495920000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iVH-Oc-3BG" customClass="BlockView">
-                                <rect key="frame" x="34" y="74" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jtc-rN-hEd" customClass="BlockView">
-                                <rect key="frame" x="92" y="74" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bbp-lz-qgo" customClass="BlockView">
-                                <rect key="frame" x="160" y="74" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YzC-JN-Ufb" customClass="BlockView">
-                                <rect key="frame" x="231" y="74" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="63E-Ud-lSg" customClass="BlockView">
-                                <rect key="frame" x="34" y="130" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="05k-bb-e2k" customClass="BlockView">
-                                <rect key="frame" x="92" y="130" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ssc-L4-gVP" customClass="BlockView">
-                                <rect key="frame" x="160" y="130" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XN7-Q4-pTu" customClass="BlockView">
-                                <rect key="frame" x="231" y="130" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BzS-QX-Kvp" customClass="BlockView">
-                                <rect key="frame" x="34" y="190" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zRD-7O-SaN" customClass="BlockView">
-                                <rect key="frame" x="92" y="190" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vxp-78-ygm" customClass="BlockView">
-                                <rect key="frame" x="160" y="190" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pVN-92-Xia" customClass="BlockView">
-                                <rect key="frame" x="231" y="190" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.36079055399999999" blue="0.84889239350000001" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -95,28 +35,7 @@
                     <navigationItem key="navigationItem" title="Break Out" id="cUp-iK-jqP"/>
                     <connections>
                         <outlet property="ballView" destination="H4c-dC-CRx" id="cyL-Hq-sOl"/>
-                        <outlet property="blockEight" destination="Vxp-78-ygm" id="TAN-dc-PTq"/>
-                        <outlet property="blockFive" destination="05k-bb-e2k" id="cN5-gA-uFR"/>
-                        <outlet property="blockFour" destination="63E-Ud-lSg" id="9VY-21-cqs"/>
-                        <outlet property="blockOne" destination="iVH-Oc-3BG" id="j5O-tt-jB3"/>
-                        <outlet property="blockSeven" destination="zRD-7O-SaN" id="dnM-p2-AA9"/>
-                        <outlet property="blockSix" destination="Ssc-L4-gVP" id="RKE-Zm-ljr"/>
-                        <outlet property="blockThree" destination="bbp-lz-qgo" id="tcy-e1-Rdi"/>
-                        <outlet property="blockTwo" destination="Jtc-rN-hEd" id="ekO-xT-BVq"/>
                         <outlet property="paddleView" destination="Pyn-Xg-OKC" id="pla-U9-sAX"/>
-                        <outletCollection property="blocksArray" destination="pVN-92-Xia" collectionClass="NSMutableArray" id="r7u-l0-Bzz"/>
-                        <outletCollection property="blocksArray" destination="Vxp-78-ygm" collectionClass="NSMutableArray" id="iHC-aZ-xcb"/>
-                        <outletCollection property="blocksArray" destination="zRD-7O-SaN" collectionClass="NSMutableArray" id="tf7-ca-S5P"/>
-                        <outletCollection property="blocksArray" destination="BzS-QX-Kvp" collectionClass="NSMutableArray" id="JXG-7v-aJq"/>
-                        <outletCollection property="blocksArray" destination="XN7-Q4-pTu" collectionClass="NSMutableArray" id="bqY-jI-fFq"/>
-                        <outletCollection property="blocksArray" destination="Ssc-L4-gVP" collectionClass="NSMutableArray" id="i2A-jU-93U"/>
-                        <outletCollection property="blocksArray" destination="05k-bb-e2k" collectionClass="NSMutableArray" id="CWf-Xa-dpb"/>
-                        <outletCollection property="blocksArray" destination="63E-Ud-lSg" collectionClass="NSMutableArray" id="tfU-ec-FHF"/>
-                        <outletCollection property="blocksArray" destination="YzC-JN-Ufb" collectionClass="NSMutableArray" id="c60-sv-71d"/>
-                        <outletCollection property="blocksArray" destination="bbp-lz-qgo" collectionClass="NSMutableArray" id="fbv-jx-aMf"/>
-                        <outletCollection property="blocksArray" destination="Jtc-rN-hEd" collectionClass="NSMutableArray" id="hbF-zL-AXG"/>
-                        <outletCollection property="blocksArray" destination="iVH-Oc-3BG" collectionClass="NSMutableArray" id="0eZ-yz-KVD"/>
-                        <outletCollection property="blocksArray" destination="pVN-92-Xia" collectionClass="NSMutableArray" id="Vru-gp-kh8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

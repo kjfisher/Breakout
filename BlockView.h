@@ -15,10 +15,10 @@
 //@property CGFloat *width;
 //@property CGFloat *height;
 
-//-(BlockView *) initWithSize: (CGFloat *)pointX
+//-(BlockView *) initWithSize: (CGFloat *) pointX
 //                     pointY:(CGFloat *) pointY
-//                      width: (CGFloat *)width
-//                     height:(CGFloat *)height;
+//                      width: (CGFloat *) width
+//                     height:(CGFloat *) height;
 
 
 @end

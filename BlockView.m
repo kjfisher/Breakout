@@ -13,20 +13,21 @@
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
-    if (self) {
-
+    if (self)
+    {
 
     }
     return self;
 }
+
 //-(BlockView *) initWithSize: (CGFloat *)pointX
 //                     pointY:(CGFloat *) pointY
 //                      width: (CGFloat *)width
 //                     height:(CGFloat *)height;
 //{
 //
-//    self.pointX= pointX;
-//    self.pointY =pointY;
+//    self.pointX = pointX;
+//    self.pointY = pointY;
 //    self.width = width;
 //    self.height = height;
 //
