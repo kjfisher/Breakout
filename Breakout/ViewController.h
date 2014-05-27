@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+
+-(BOOL)shouldStartAgain;
+
 @end
